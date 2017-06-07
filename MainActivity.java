@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("유저수",user);
                 intent.putExtra("주사위수",dicer);
                 startActivity(intent);
+                Player.setText("");
+                dice.setText("");
 
             }
         });
